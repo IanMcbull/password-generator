@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A small command line application that generates random passwords",
   "main": "server.js",
+  "preferGlobal":true,
+  "bin":"./server.js",
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
